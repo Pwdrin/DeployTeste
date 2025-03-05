@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import Parallax from '../components/Parallax';
 import TeamMember from '../components/TeamMember';
 import { Heart, Clock, Users, Shield } from 'lucide-react';
+import WhatsAppButton from "../components/popup";
 
 const About: React.FC = () => {
   const teamMembers = [
@@ -73,6 +74,8 @@ const About: React.FC = () => {
           </p>
         </div>
       </Parallax>
+
+      <WhatsAppButton/>
 
       {/* History Section */}
       <section className="py-16 md:py-24 bg-white">

@@ -17,6 +17,7 @@ import {
   Heart, 
   ArrowRight 
 } from 'lucide-react';
+import WhatsAppButton from "../components/popup";
 
 const Home: React.FC = () => {
   const [ref, inView] = useInView({
@@ -30,28 +31,28 @@ const Home: React.FC = () => {
       title: 'Traslado Funerário',
       description: 'Transporte seguro e respeitoso do falecido entre hospitais, residências, IML e cemitérios.',
       icon: <Car className="h-6 w-6" />,
-      imageUrl: 'https://images.unsplash.com/photo-1498743119273-4d87c2f9c76b?q=80&w=2094&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      imageUrl: 'https://images.unsplash.com/photo-1716085593707-7e8b0fe45681?q=80&w=2071',
     },
     {
       id: 'sepultamento',
       title: 'Sepultamento',
       description: 'Organização completa do sepultamento com toda a documentação necessária e suporte à família.',
       icon: <Shovel className="h-6 w-6" />,
-      imageUrl: 'https://i.ibb.co/Xx6f6q0f/sunrise-bali-jungle.jpg',
+      imageUrl: 'https://images.unsplash.com/photo-1716085593707-7e8b0fe45681?q=80&w=2071',
     },
     {
       id: 'cremacao',
       title: 'Cremação',
       description: 'Processo de cremação realizado com dignidade, seguindo todos os protocolos e desejos da família.',
       icon: <Flame className="h-6 w-6" />,
-      imageUrl: 'https://images.unsplash.com/photo-1507484467459-0c01be16726e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      imageUrl: 'https://images.unsplash.com/photo-1574808146141-fbd663cfb174?q=80&w=2070',
     },
     {
       id: 'velorio',
       title: 'Velório',
       description: 'Espaços confortáveis e acolhedores para a realização do velório, com todo o suporte necessário.',
       icon: <Heart className="h-6 w-6" />,
-      imageUrl: 'https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      imageUrl: 'https://images.unsplash.com/photo-1644670796211-dd53188d5688?q=80&w=2072',
     },
   ];
 
@@ -262,6 +263,7 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
+      <WhatsAppButton/>
     </motion.div>
   );
 };

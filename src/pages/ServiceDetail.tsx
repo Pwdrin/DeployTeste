@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import Parallax from '../components/Parallax';
 import TestimonialCard from '../components/TestimonialCard';
 import { ArrowRight, Phone } from 'lucide-react';
+import WhatsAppButton from '../components/popup';
 
 interface ServiceInfo {
   id: string;
@@ -33,7 +34,7 @@ const ServiceDetail: React.FC = () => {
         'Nossa equipe é treinada para realizar o traslado com profissionalismo e discrição, seguindo todos os protocolos sanitários e legais exigidos pelas autoridades competentes.',
         'Realizamos traslados em todo o território nacional e também internacional, cuidando de toda a documentação necessária para o transporte do falecido entre diferentes cidades, estados ou países.'
       ],
-      imageUrl: 'https://images.unsplash.com/photo-1498743119273-4d87c2f9c76b?q=80&w=2094',
+      imageUrl: 'https://images.unsplash.com/photo-1716085593707-7e8b0fe45681?q=80&w=2071',
       features: [
         'Transporte local, intermunicipal, interestadual e internacional',
         'Veículos modernos e adaptados',
@@ -65,7 +66,7 @@ const ServiceDetail: React.FC = () => {
         'Oferecemos diferentes opções de urnas funerárias, ornamentação com flores e arranjos, além de serviços complementares como cerimonial e assistência religiosa conforme a tradição da família.',
         'Nossa equipe acompanha todo o processo, desde o velório até o momento do sepultamento, garantindo que tudo ocorra com dignidade, respeito e conforme os desejos da família e do falecido.'
       ],
-      imageUrl: 'https://i.ibb.co/Xx6f6q0f/sunrise-bali-jungle.jpg',
+      imageUrl: 'https://images.unsplash.com/photo-1716085593707-7e8b0fe45681?q=80&w=2071',
       features: [
         'Preparação e higienização do corpo',
         'Urnas funerárias de diferentes modelos',
@@ -97,7 +98,7 @@ const ServiceDetail: React.FC = () => {
         'Oferecemos diferentes opções de urnas para o velório e uma variedade de urnas cinerárias para a guarda das cinzas após a cremação, atendendo às preferências e necessidades da família.',
         'Nossa equipe acompanha todo o processo, desde o velório até a entrega das cinzas à família, garantindo que tudo ocorra conforme planejado e com o devido respeito.'
       ],
-      imageUrl: 'https://images.unsplash.com/photo-1507484467459-0c01be16726e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      imageUrl: 'https://images.unsplash.com/photo-1574808146141-fbd663cfb174?q=80&w=2070',
       features: [
         'Documentação completa para cremação',
         'Urnas para velório e urnas cinerárias',
@@ -129,7 +130,7 @@ const ServiceDetail: React.FC = () => {
         'Oferecemos serviços complementares como ornamentação com flores, música ambiente, serviço de café e água, além de assistência religiosa conforme a tradição da família.',
         'Nossa equipe está presente durante todo o velório, prestando assistência e garantindo que tudo ocorra conforme planejado, permitindo que a família se concentre apenas na despedida de seu ente querido.'
       ],
-      imageUrl: 'https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?q=80&w=1974',
+      imageUrl: 'https://images.unsplash.com/photo-1644670796211-dd53188d5688?q=80&w=2072',
       features: [
         'Salas amplas e climatizadas',
         'Poltronas confortáveis',
@@ -225,6 +226,8 @@ const ServiceDetail: React.FC = () => {
           </p>
         </div>
       </Parallax>
+      
+      <WhatsAppButton/>
 
       {/* Service Description Section */}
       <section className="py-16 md:py-24 bg-white">

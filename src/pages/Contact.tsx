@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import Parallax from '../components/Parallax';
 import ContactForm from '../components/ContactForm';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import WhatsAppButton from '../components/popup';
 
 const Contact: React.FC = () => {
   return (
@@ -121,7 +122,7 @@ const Contact: React.FC = () => {
                   </div>
                 </motion.div>
               </div>
-              
+              <WhatsAppButton/>
               <div className="mt-12">
                 <h3 className="text-xl font-serif font-bold text-primary-800 mb-4">Redes Sociais</h3>
                 <div className="flex space-x-4">
