@@ -4,11 +4,11 @@ import { MapPin, Phone, Clock, ArrowLeft } from 'lucide-react';
 
 const funeralUnits = {
   'tijuca': {
-    name: 'Unidade Tijuca',
+    name: 'Funerária Tijuca',
     location: 'Barra - Rio de Janeiro Rio de Janeiro',
     phone: '(21) 9999-5555',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade do Tijuca está localizada em um ponto privilegiado do Rio de Janeiro, oferecendo fácil acesso e toda infraestrutura necessária. Contamos com:
+    description: `Nossa Funerária da Tijuca está localizada em um ponto privilegiado do Rio de Janeiro, oferecendo fácil acesso e toda infraestrutura necessária. Contamos com:
 
     • Três salas para velório
     • Sala de repouso familiar
@@ -25,11 +25,11 @@ const funeralUnits = {
     ],
   },
   'barra-tijuca': {
-    name: 'Unidade Barra da Tijuca',
+    name: 'Funerária Barra da Tijuca',
     location: 'Rua Conde de Bonfim, 456 - Tijuca, Rio de Janeiro',
     phone: '(21) 9999-4444',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade da Barra Tijuca oferece um ambiente acolhedor em uma das regiões mais tradicionais do Rio. Nossa estrutura inclui:
+    description: `Nossa Funerária da Barra Tijuca oferece um ambiente acolhedor em uma das regiões mais tradicionais do Rio. Nossa estrutura inclui:
 
     • Duas salas para velório
     • Sala de estar familiar
@@ -46,11 +46,11 @@ const funeralUnits = {
     ],
   },
   'botafogo': {
-    name: 'Unidade Botafogo',
+    name: 'Funerária Botafogo',
     location: 'Av. Roberto Silveira, 789 - Icaraí, Niterói',
     phone: '(21) 9999-3333',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade de Botafogo está situada em uma localização privilegiada com vista para a Baía de Guanabara. Oferecemos:
+    description: `Nossa Funerária de Botafogo está situada em uma localização privilegiada com vista para a Baía de Guanabara. Oferecemos:
 
     • Quatro salas para velório
     • Lounge premium
@@ -68,11 +68,11 @@ const funeralUnits = {
   },
 
   'copacabana': {
-    name: 'Unidade Copacabana',
+    name: 'Funerária Copacabana',
     location: 'Av. Roberto Silveira, 789 - Icaraí, Niterói',
     phone: '(21) 9999-3333',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade de Copacabana está situada em uma localização privilegiada com vista para a Baía de Guanabara. Oferecemos:
+    description: `Nossa Funerária de Copacabana está situada em uma localização privilegiada com vista para a Baía de Guanabara. Oferecemos:
 
     • Quatro salas para velório
     • Lounge premium
@@ -89,11 +89,11 @@ const funeralUnits = {
     ],
   },
   'campo-grande': {
-    name: 'Unidade Campo Grande',
+    name: 'Funerária Campo Grande',
     location: 'Av. Roberto Silveira, 789 - Icaraí, Niterói',
     phone: '(21) 9999-3333',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade de Campo Grande está situada em uma localização privilegiada e de fácil acesso. Oferecemos:
+    description: `Nossa Funerária de Campo Grande está situada em uma localização privilegiada e de fácil acesso. Oferecemos:
 
     • Quatro salas para velório
     • Lounge premium
@@ -110,11 +110,11 @@ const funeralUnits = {
     ],
   },
   'santa-cruz': {
-    name: 'Unidade Santa Cruz',
+    name: 'Funerária Santa Cruz',
     location: 'Santa Cruz - RJ',
     phone: '(21) 9999-3333',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade de Santa Cruz está situada em uma localização privilegiada e de fácil acesso. Oferecemos:
+    description: `Nossa Funerária de Santa Cruz está situada em uma localização privilegiada e de fácil acesso. Oferecemos:
 
     • Quatro salas para velório
     • Lounge premium
@@ -131,11 +131,11 @@ const funeralUnits = {
     ],
   },
   'jacarepagua': {
-    name: 'Unidade Jacarépagua',
+    name: 'Funerária Jacarépagua',
     location: 'Jacarépagua - RJ',
     phone: '(21) 9999-3333',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade de Jacarépagua está situada em uma localização privilegiada e de fácil acesso. Oferecemos:
+    description: `Nossa Funerária de Jacarépagua está situada em uma localização privilegiada e de fácil acesso. Oferecemos:
 
     • Quatro salas para velório
     • Lounge premium

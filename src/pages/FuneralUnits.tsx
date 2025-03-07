@@ -7,15 +7,15 @@ import WhatsAppButton from '../components/popup';
 const funeralUnits = [
   {
     id: 'tijuca',
-    name: 'Unidade Tijuca',
+    name: 'Funerária Tijuca',
     location: 'Tijuca, Rio de Janeiro',
     phone: '(21) 9999-5555',
-    description: 'Nossa unidade principal no coração do Rio de Janeiro.',
+    description: 'Nossa Funerária principal no coração do Rio de Janeiro.',
     image: 'https://i.ibb.co/N62rF4rV/TIJUCA.jpg',
   },
   {
     id: 'barra-tijuca',
-    name: 'Unidade Barra da Tijuca',
+    name: 'Funerária Barra da Tijuca',
     location: 'Barra da Tijuca, Rio de Janeiro',
     phone: '(21) 9999-4444',
     description: 'Ambiente acolhedor com fácil acesso e estacionamento.',
@@ -23,15 +23,15 @@ const funeralUnits = [
   },
   {
     id: 'botafogo',
-    name: 'Unidade Botafogo',
+    name: 'Funerária Botafogo',
     location: 'Botafogo, Rio de Janeiro',
     phone: '(21) 9999-3333',
-    description: 'Moderna unidade com vista para a Baía de Guanabara.',
+    description: 'Moderna Funerária com vista para a Baía de Guanabara.',
     image: 'https://i.ibb.co/5gh7dvRF/Botafogo-RJ.jpg',
   },
   {
     id: 'copacabana',
-    name: 'Unidade Copacabana',
+    name: 'Funerária Copacabana',
     location: 'Copacabana, Rio de Janeiro',
     phone: '(21) 9999-4444',
     description: 'Ambiente acolhedor com fácil acesso e estacionamento.',
@@ -39,7 +39,7 @@ const funeralUnits = [
   },
   {
     id: 'campo-grande',
-    name: 'Unidade Campo Grande',
+    name: 'Funerária Campo Grande',
     location: 'Campo Grande, Rio de Janeiro',
     phone: '(21) 9999-4444',
     description: 'Ambiente acolhedor com fácil acesso e estacionamento.',
@@ -47,7 +47,7 @@ const funeralUnits = [
   },
   {
     id: 'santa-cruz',
-    name: 'Unidade Santa Cruz',
+    name: 'Funerária Santa Cruz',
     location: 'Santa Cruz, Rio de Janeiro',
     phone: '(21) 9999-4444',
     description: 'Ambiente acolhedor com fácil acesso e estacionamento.',
@@ -55,7 +55,7 @@ const funeralUnits = [
   },
   {
     id: 'jacarepagua',
-    name: 'Unidade Jacarépagua',
+    name: 'Funerária Jacarépagua',
     location: 'Jacarépagua, Rio de Janeiro',
     phone: '(21) 9999-4444',
     description: 'Ambiente acolhedor com fácil acesso e estacionamento.',

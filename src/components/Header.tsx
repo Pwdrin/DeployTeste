@@ -144,7 +144,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
         }`}
       >
         <Phone className="h-5 w-5 mr-2" />
-        (21) 9999-9999
+        (21) 96837-1100
       </a>
       <Link 
         to="/contato" 

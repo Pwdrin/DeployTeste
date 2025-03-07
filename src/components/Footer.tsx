@@ -60,6 +60,27 @@ const Footer: React.FC = () => {
               </li> */}
             </ul>
           </div>
+
+          <div>
+            <h3 className="text-lg font-serif font-bold mb-4">Unidades</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link to="/crematorium-units" className="text-primary-200 hover:text-white transition-colors">
+                  Crematórios
+                </Link>
+              </li>
+              <li>
+                <Link to="/cemetery-units" className="text-primary-200 hover:text-white transition-colors">
+                  Cemitérios
+                </Link>
+              </li>
+              <li>
+                <Link to="/funeral-units" className="text-primary-200 hover:text-white transition-colors">
+                  Funerárias
+                </Link>
+              </li>
+            </ul>
+          </div>
           
           <div>
             <h3 className="text-lg font-serif font-bold mb-4">Links Rápidos</h3>
@@ -79,16 +100,6 @@ const Footer: React.FC = () => {
                   Contato
                 </Link>
               </li>
-              <li>
-                <Link to="/politica-de-privacidade" className="text-primary-200 hover:text-white transition-colors">
-                  Política de Privacidade
-                </Link>
-              </li>
-              <li>
-                <Link to="/termos-de-uso" className="text-primary-200 hover:text-white transition-colors">
-                  Termos de Uso
-                </Link>
-              </li>
             </ul>
           </div>
           
@@ -104,8 +115,8 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-primary-200 mr-3" />
-                <a href="tel:+552199999999" className="text-primary-200 hover:text-white transition-colors">
-                  (21) 9999-9999
+                <a href="tel:+5521968371100" className="text-primary-200 hover:text-white transition-colors">
+                  (21) 96837-1100
                 </a>
               </li>
               <li className="flex items-center">

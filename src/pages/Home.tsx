@@ -38,7 +38,7 @@ const Home: React.FC = () => {
       title: 'Sepultamento',
       description: 'Organização completa do sepultamento com toda a documentação necessária e suporte à família.',
       icon: <Shovel className="h-6 w-6" />,
-      imageUrl: 'https://images.unsplash.com/photo-1716085593707-7e8b0fe45681?q=80&w=2071',
+      imageUrl: 'https://images.unsplash.com/photo-1644413809805-35791debc382?q=80&w=2070',
     },
     {
       id: 'cremacao',
@@ -101,46 +101,46 @@ const Home: React.FC = () => {
     >
       {/* Hero Section */}
       <Parallax 
-        imageUrl="https://images.unsplash.com/photo-1561577553-674ce32847a4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        imageUrl="https://i.ibb.co/4RSYWSkv/bghome.jpg"
         height="h-screen"
         overlayOpacity={0.6}
       >
-        <div className="container-custom text-center text-white">
-          <motion.h1 
-            className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-6"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            Serviços funerários com<br />respeito e dignidade
-          </motion.h1>
-          <motion.p 
-            className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-          >
-            Prestando assistência completa às famílias nos momentos mais difíceis
-          </motion.p>
-          <motion.div
-            className="flex flex-col sm:flex-row justify-center gap-4"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-          >
-            <Link to="/contato" className="btn bg-primary-700 text-white hover:bg-primary-800">
-              Fale Conosco
-            </Link>
-            <button
-  className="btn bg-white text-primary-800 hover:bg-primary-50"
-  onClick={() => {
-    document.getElementById("services-section")?.scrollIntoView({ behavior: "smooth" });
-  }}
->
-  Conheça nossos serviços
-          </button>
-          </motion.div>
-        </div>
+        <div className="container-custom text-left text-white"> 
+  <motion.h1 
+    className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-6"
+    initial={{ opacity: 0, y: -20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.8, delay: 0.2 }}
+  >
+    Serviços funerários com<br />respeito e dignidade
+  </motion.h1>
+  <motion.p 
+    className="text-xl md:text-2xl mb-8 max-w-3xl mr-auto" 
+    initial={{ opacity: 0, y: -20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.8, delay: 0.4 }}
+  >
+    Prestando assistência completa às famílias nos momentos mais difíceis.
+  </motion.p>
+  <motion.div
+    className="flex flex-col sm:flex-row justify-start gap-4" 
+    initial={{ opacity: 0, y: -20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.8, delay: 0.6 }}
+  >
+    <Link to="/contato" className="btn bg-primary-700 text-white hover:bg-primary-800">
+      Fale Conosco
+    </Link>
+    <button
+      className="btn bg-white text-primary-800 hover:bg-primary-50"
+      onClick={() => {
+        document.getElementById("services-section")?.scrollIntoView({ behavior: "smooth" });
+      }}
+    >
+      Conheça nossos serviços
+    </button>
+  </motion.div>
+</div>
       </Parallax>
 
       {/* Services Section */}
@@ -251,7 +251,7 @@ const Home: React.FC = () => {
                 className="btn bg-white text-primary-800 hover:bg-primary-50"
               >
                 <Phone className="mr-2 h-5 w-5" />
-                (21) 9999-9999
+                (21) 96837-1100
               </a>
               <Link 
                 to="/contato" 

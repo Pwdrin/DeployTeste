@@ -4,11 +4,11 @@ import { MapPin, Phone, Clock, ArrowLeft } from 'lucide-react';
 
 const cemeteryUnits = {
   'campo-grande': {
-    name: 'Unidade Campo Grande',
+    name: 'Cemitério de Campo Grande',
     location: 'Campo Grande, Rio de Janeiro',
     phone: '(21) 9999-4444',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade de Campo Grande está situada em uma localização privilegiada e de fácil acesso. Oferecemos:
+    description: `Nosso Cemitério de Campo Grande está situada em uma localização privilegiada e de fácil acesso. Oferecemos:
 
     • Quatro salas para velório
     • Lounge premium
@@ -25,11 +25,11 @@ const cemeteryUnits = {
     ],
   },
   'cacuia': {
-    name: 'Unidade Cacuia',
+    name: 'Cemitério de Cacuia',
     location: 'Cacuia, Rio de Janeiro',
     phone: '(21) 9999-3333',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade de Cacuia oferece um ambiente tranquilo e acolhedor. Nossa estrutura inclui:
+    description: `Nosso Cemitério de Cacuia oferece um ambiente tranquilo e acolhedor. Nossa estrutura inclui:
 
     • Duas salas para velório
     • Sala de estar familiar
@@ -44,11 +44,11 @@ const cemeteryUnits = {
     ],
   },
   'iraja': {
-    name: 'Unidade Irajá',
+    name: 'Cemitério de Irajá',
     location: 'Irajá, Rio de Janeiro',
     phone: '(21) 9999-2222',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade de Irajá está localizada em uma região de fácil acesso. Oferecemos:
+    description: `Nossa Cemitério de Irajá está localizada em uma região de fácil acesso. Oferecemos:
 
     • Três salas para velório
     • Sala de repouso familiar
@@ -63,11 +63,11 @@ const cemeteryUnits = {
     ],
   },
   'guaratiba': {
-    name: 'Unidade Guaratiba',
+    name: 'Cemitério de Guaratiba',
     location: 'Guaratiba, Rio de Janeiro',
     phone: '(21) 9999-1111',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade de Guaratiba oferece um ambiente sereno e acolhedor. Nossa estrutura inclui:
+    description: `Nossa Cemitério de Guaratiba oferece um ambiente sereno e acolhedor. Nossa estrutura inclui:
 
     • Duas salas para velório
     • Sala VIP para familiares
@@ -82,11 +82,11 @@ const cemeteryUnits = {
     ],
   },
   'caju': {
-    name: 'Unidade Caju',
+    name: 'Cemitério do Caju',
     location: 'Caju, Rio de Janeiro',
     phone: '(21) 9999-0000',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade de Caju está situada em uma localização privilegiada. Oferecemos:
+    description: `Nossa Cemitério do Caju está situada em uma localização privilegiada. Oferecemos:
 
     • Quatro salas para velório
     • Lounge premium
@@ -101,11 +101,11 @@ const cemeteryUnits = {
     ],
   },
   'inhauma': {
-    name: 'Unidade Inhaúma',
+    name: 'Cemitério de Inhaúma',
     location: 'Inhaúma, Rio de Janeiro',
     phone: '(21) 9999-9999',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade de Inhaúma oferece um ambiente tranquilo e acolhedor. Nossa estrutura inclui:
+    description: `Nossa Cemitério de Inhaúma oferece um ambiente tranquilo e acolhedor. Nossa estrutura inclui:
 
     • Duas salas para velório
     • Sala de estar familiar
@@ -124,7 +124,7 @@ const cemeteryUnits = {
     location: 'Paciência, Rio de Janeiro',
     phone: '(21) 9999-8888',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade Jardim da Saudade em Paciência oferece um ambiente sereno e acolhedor. Nossa estrutura inclui:
+    description: `Nossa Cemitério do Jardim da Saudade em Paciência oferece um ambiente sereno e acolhedor. Nossa estrutura inclui:
 
     • Duas salas para velório
     • Sala VIP para familiares
@@ -143,7 +143,7 @@ const cemeteryUnits = {
     location: 'Sulacap, Rio de Janeiro',
     phone: '(21) 9999-7777',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade Jardim da Saudade em Sulacap oferece um ambiente tranquilo e acolhedor. Nossa estrutura inclui:
+    description: `Nosso Cemitério do Jardim da Saudade em Sulacap oferece um ambiente tranquilo e acolhedor. Nossa estrutura inclui:
 
     • Duas salas para velório
     • Sala de estar familiar
@@ -162,7 +162,7 @@ const cemeteryUnits = {
     location: 'Carmo, Rio de Janeiro',
     phone: '(21) 9999-6666',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade Memorial do Carmo oferece um ambiente sereno e acolhedor. Nossa estrutura inclui:
+    description: `Nosso Cemitério do Memorial do Carmo oferece um ambiente sereno e acolhedor. Nossa estrutura inclui:
 
     • Duas salas para velório
     • Sala VIP para familiares
@@ -181,7 +181,7 @@ const cemeteryUnits = {
     location: 'Rio de Janeiro, RJ',
     phone: '(21) 9999-5555',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade Memorial do Rio oferece um ambiente tranquilo e acolhedor. Nossa estrutura inclui:
+    description: `Nossa Cemitério do Memorial do Rio oferece um ambiente tranquilo e acolhedor. Nossa estrutura inclui:
 
     • Duas salas para velório
     • Sala de estar familiar
@@ -200,7 +200,7 @@ const cemeteryUnits = {
     location: 'Realengo, Rio de Janeiro',
     phone: '(21) 9999-4444',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade Murundu Realengo oferece um ambiente sereno e acolhedor. Nossa estrutura inclui:
+    description: `Nosso Cemitério do Murundu Realengo oferece um ambiente sereno e acolhedor. Nossa estrutura inclui:
 
     • Duas salas para velório
     • Sala VIP para familiares
@@ -215,11 +215,11 @@ const cemeteryUnits = {
     ],
   },
   'paqueta': {
-    name: 'Unidade Paquetá',
+    name: 'Cemitério de Paquetá',
     location: 'Paquetá, Rio de Janeiro',
     phone: '(21) 9999-3333',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade de Paquetá oferece um ambiente tranquilo e acolhedor. Nossa estrutura inclui:
+    description: `Nosso Cemitério de Paquetá oferece um ambiente tranquilo e acolhedor. Nossa estrutura inclui:
 
     • Duas salas para velório
     • Sala de estar familiar
@@ -234,11 +234,11 @@ const cemeteryUnits = {
     ],
   },
   'piabas-recreio': {
-    name: 'Unidade Piabas (Recreio)',
+    name: 'Cemitério Piabas (Recreio)',
     location: 'Recreio, Rio de Janeiro',
     phone: '(21) 9999-2222',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade de Piabas no Recreio oferece um ambiente sereno e acolhedor. Nossa estrutura inclui:
+    description: `Nosso Cemitério de Piabas no Recreio oferece um ambiente sereno e acolhedor. Nossa estrutura inclui:
 
     • Duas salas para velório
     • Sala VIP para familiares
@@ -253,11 +253,11 @@ const cemeteryUnits = {
     ],
   },
   'ricardo-albuquerque': {
-    name: 'Unidade Ricardo de Albuquerque',
+    name: 'Cemitério Ricardo de Albuquerque',
     location: 'Ricardo de Albuquerque, Rio de Janeiro',
     phone: '(21) 9999-1111',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade de Ricardo de Albuquerque oferece um ambiente tranquilo e acolhedor. Nossa estrutura inclui:
+    description: `Nosso Cemitério de Ricardo de Albuquerque oferece um ambiente tranquilo e acolhedor. Nossa estrutura inclui:
 
     • Duas salas para velório
     • Sala de estar familiar
@@ -272,11 +272,11 @@ const cemeteryUnits = {
     ],
   },
   'santa-cruz': {
-    name: 'Unidade Santa Cruz',
+    name: 'Cemitério de Santa Cruz',
     location: 'Santa Cruz, Rio de Janeiro',
     phone: '(21) 9999-0000',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade de Santa Cruz oferece um ambiente sereno e acolhedor. Nossa estrutura inclui:
+    description: `Nosso Cemitério de Santa Cruz oferece um ambiente sereno e acolhedor. Nossa estrutura inclui:
 
     • Duas salas para velório
     • Sala VIP para familiares
@@ -291,11 +291,11 @@ const cemeteryUnits = {
     ],
   },
   'sao-joao-batista': {
-    name: 'Unidade São João Batista',
+    name: 'Cemitério São João Batista',
     location: 'São João Batista, Rio de Janeiro',
     phone: '(21) 9999-9999',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade de São João Batista oferece um ambiente tranquilo e acolhedor. Nossa estrutura inclui:
+    description: `Nosso Cemitério de São João Batista oferece um ambiente tranquilo e acolhedor. Nossa estrutura inclui:
 
     • Duas salas para velório
     • Sala de estar familiar
@@ -310,11 +310,11 @@ const cemeteryUnits = {
     ],
   },
   'istaelita': {
-    name: 'Unidade Israelita',
+    name: 'Cemitério Israelita',
     location: 'Rio de Janeiro, RJ',
     phone: '(21) 9999-8888',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade Israelita oferece um ambiente sereno e acolhedor. Nossa estrutura inclui:
+    description: `Nosso Cemitério Israelita oferece um ambiente sereno e acolhedor. Nossa estrutura inclui:
 
     • Duas salas para velório
     • Sala VIP para familiares
@@ -329,11 +329,11 @@ const cemeteryUnits = {
     ],
   },
   'penitencia': {
-    name: 'Unidade Penitência',
+    name: 'Cemitério Penitência',
     location: 'Penitência, Rio de Janeiro',
     phone: '(21) 9999-7777',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade de Penitência oferece um ambiente tranquilo e acolhedor. Nossa estrutura inclui:
+    description: `Nosso Cemitério de Penitência oferece um ambiente tranquilo e acolhedor. Nossa estrutura inclui:
 
     • Duas salas para velório
     • Sala de estar familiar
@@ -352,7 +352,7 @@ const cemeteryUnits = {
     location: 'Catumbi, Rio de Janeiro',
     phone: '(21) 9999-6666',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade de São Francisco de Paula no Catumbi oferece um ambiente sereno e acolhedor. Nossa estrutura inclui:
+    description: `Nosso Cemitério de São Francisco de Paula no Catumbi oferece um ambiente sereno e acolhedor. Nossa estrutura inclui:
 
     • Duas salas para velório
     • Sala VIP para familiares
@@ -371,7 +371,7 @@ const cemeteryUnits = {
     location: 'Rio de Janeiro, RJ',
     phone: '(21) 9999-5555',
     hours: 'Todos os dias, 24 horas',
-    description: `Nossa unidade British Burial Fund oferece um ambiente tranquilo e acolhedor. Nossa estrutura inclui:
+    description: `Nosso Cemitério British Burial Fund oferece um ambiente tranquilo e acolhedor. Nossa estrutura inclui:
 
     • Duas salas para velório
     • Sala de estar familiar

@@ -66,7 +66,7 @@ const ServiceDetail: React.FC = () => {
         'Oferecemos diferentes opções de urnas funerárias, ornamentação com flores e arranjos, além de serviços complementares como cerimonial e assistência religiosa conforme a tradição da família.',
         'Nossa equipe acompanha todo o processo, desde o velório até o momento do sepultamento, garantindo que tudo ocorra com dignidade, respeito e conforme os desejos da família e do falecido.'
       ],
-      imageUrl: 'https://images.unsplash.com/photo-1716085593707-7e8b0fe45681?q=80&w=2071',
+      imageUrl: 'https://images.unsplash.com/photo-1644413809805-35791debc382?q=80&w=2070',
       features: [
         'Preparação e higienização do corpo',
         'Urnas funerárias de diferentes modelos',

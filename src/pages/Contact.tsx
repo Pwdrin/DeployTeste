@@ -157,7 +157,7 @@ const Contact: React.FC = () => {
                     </svg>
                   </a> */}
                   <a 
-                    href="https://wa.me/552199999999" 
+                    href="https://wa.me/+5521968371100" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="p-3 rounded-full bg-primary-100 text-primary-700 hover:bg-primary-200 transition-colors"
